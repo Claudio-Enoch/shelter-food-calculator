@@ -1,6 +1,6 @@
-### Cases are not covered in the ACs
+### Cases not covered in the ACs
 
-Should the program have been written to handle exceptions?  
+Should the program have error handling?  
  - assumed yes
 
 Should we accept a float number of leftover food?  
@@ -17,7 +17,7 @@ Dogs being adopted/put down should be calculated as decimals for time spent at s
 
 A pregnant dog which would exceed the 30 dog limit is not accounted for.  
 
-Months are not calculated by days in month e.g. 28 vs 31 days.  
+Food for a months is not accounting for days in a given month e.g. 28 vs 31 days.  
 
 Expiration of dog food is not accounted for. How many months can we roll over the excess food?  
  - Is dog food being used in a FIFO manner in order to avoid the rollover of expired food indefinitely?  
